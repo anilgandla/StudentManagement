@@ -36,5 +36,8 @@ public class CourseService {
 		// TODO Auto-generated method stub
 		return courseRepo.findByCourseName(name);
 	}
+	public void deleteCourse(String courseName) {
+            courseRepo.deleteByName(courseName);		
+	}
 
 }
