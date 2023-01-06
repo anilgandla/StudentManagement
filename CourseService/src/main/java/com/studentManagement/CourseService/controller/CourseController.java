@@ -27,6 +27,11 @@ public class CourseController {
 		courseService.deleteCourse(courseName);
 
 	}
+	
+	@GetMapping("/allCourses")
+	public List<Course> getCourses() {
+		return courseService.getAllCourses();
+	}
 
 	@PostMapping("/")
 	public Course saveCourse(@RequestBody Course course) {
