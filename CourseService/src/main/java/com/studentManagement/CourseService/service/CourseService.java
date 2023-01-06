@@ -12,32 +12,26 @@ import com.studentManagement.CourseService.repo.CourseRepo;
 @Service
 public class CourseService {
 
-	
 	@Autowired
 	CourseRepo courseRepo;
-	
-	
-	
+
 	public Course saveCourse(Course course) {
 		// TODO Auto-generated method stub
 		return courseRepo.save(course);
 	}
-
-
 
 	public List<Course> getAllCourses() {
 		// TODO Auto-generated method stub
 		return courseRepo.findAll();
 	}
 
-
-
 	public Optional<Course> getCourseById(String name) {
 		// TODO Auto-generated method stub
 		return courseRepo.findByCourseName(name);
 	}
+
 	public void deleteCourse(String courseName) {
-            courseRepo.deleteByName(courseName);		
+		courseRepo.deleteByName(courseName);
 	}
 
 }
