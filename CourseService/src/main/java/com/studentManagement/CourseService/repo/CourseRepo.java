@@ -12,6 +12,7 @@ public interface CourseRepo extends JpaRepository<Course, Integer> {
 	@Transactional
 	Optional<Course> findByCourseName(String name);
 
+	//deleting by name
 	Course deleteByName(String courseName);
 
 }
