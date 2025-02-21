@@ -37,7 +37,7 @@
     <packaging>pom</packaging>
     <artifactId>usercontribution</artifactId>
     <groupId>com.intuit</groupId>
-    <version>4.0.74</version>
+    <version>4.0.74-SNAPSHOT</version>
     <name>${project.version} - ${project.artifactId}</name>
     <description>Everything related to user contribution</description>
     <scm>
@@ -64,6 +64,7 @@
         <mockito.version>1.10.19</mockito.version>
         <jmockit.version>1.31</jmockit.version>
         <newrelic.version>2.13.0</newrelic.version>
+	<mcs.version>4.5.9</mcs.version>
         <rcs.war.file.name>mcs</rcs.war.file.name>
         <org.json.version.bypassreleasejob>1.1-SNAPSHOT</org.json.version.bypassreleasejob>
         <commons-lang3.version>3.11</commons-lang3.version>
