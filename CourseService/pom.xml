@@ -64,7 +64,7 @@
         <mockito.version>1.10.19</mockito.version>
         <jmockit.version>1.31</jmockit.version>
         <newrelic.version>2.13.0</newrelic.version>
-	<mcs.version>3.4.57</mcs.version>
+	<mcs.version>2.3.4</mcs.version>
         <rcs.war.file.name>mcs</rcs.war.file.name>
         <org.json.version.bypassreleasejob>1.1-SNAPSHOT</org.json.version.bypassreleasejob>
         <commons-lang3.version>3.11</commons-lang3.version>
