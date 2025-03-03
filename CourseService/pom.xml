@@ -37,7 +37,7 @@
     <packaging>pom</packaging>
     <artifactId>usercontribution</artifactId>
     <groupId>com.intuit</groupId>
-    <version>4.0.74</version>
+    <version>4.0.75</version>
     <name>${project.version} - ${project.artifactId}</name>
     <description>Everything related to user contribution</description>
     <scm>
